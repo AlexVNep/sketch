@@ -14,9 +14,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 2px solid red;
-  width: 600px;
-  height: 600px;
+  border: 2px solid black;
+  width: 900px;
+  height: 900px;
 }
 
  .container>div {
@@ -35,5 +35,5 @@ body {
 }
 
 .row {
-  background-color: hotpink;
+  background-color: white;
 }
