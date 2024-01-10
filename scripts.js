@@ -16,7 +16,12 @@ function changeSize () {
 
 gridButton.addEventListener('click', changeSize);
 
+function clearGrid () {
+
+}
+
 function makeGrid (size) {  
+  container.replaceChildren();
   for (let i = 0; i < size; i++) {
     let column = document.createElement('div');
     column.classList.add('column');
