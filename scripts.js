@@ -16,9 +16,12 @@ function changeSize () {
 
 gridButton.addEventListener('click', changeSize);
 
-function clearGrid () {
-
-}
+function hover (e) {
+  let r = Math.floor(Math.random() * 256);
+  let g = Math.floor(Math.random() * 256);
+  let b = Math.floor(Math.random() * 256);
+  e.target.style.backgroundColor = "rgb("+r+","+g+","+b+")";
+  }
 
 function makeGrid (size) {  
   container.replaceChildren();
@@ -35,9 +38,6 @@ function makeGrid (size) {
   }  
 }
 
-function hover (e) {
-  e.target.style.backgroundColor = 'red';
-  }
 
 
 
