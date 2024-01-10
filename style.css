@@ -19,17 +19,21 @@ body {
   height: 600px;
 }
 
-.container>div {
+ .container>div {
   height: auto;
   flex: 1 0 auto;
   /* make columns vertical flexboxes */
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-}
+} 
 
 .container>div>* {
   /* make rows evenly distributed */
   flex: 1;
   border: 1px solid black;
+}
+
+.row {
+  background-color: hotpink;
 }
